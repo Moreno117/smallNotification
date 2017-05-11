@@ -1,0 +1,76 @@
+.smallBox-contenedor{
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    /*width: 400px;*/
+    height: 250px;
+    /*background-color: red;*/
+}
+
+.smallBox-foto{
+    float: left;
+    margin-top: 40px;
+}
+
+.smallBox-foto img{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-right: 45px;
+}
+
+.smallBox-contenido{
+    float: left;
+}
+
+.smallBox-textoContenedor span{
+    display: block;
+}
+
+.smallBox-titulo{
+    font-size: 20px;
+    color: #5b5b5b;
+}
+
+.smallBox-subTitulo{
+    font-size: 18px;
+    color: #291818;
+}
+
+.smallBox-cajaColor{
+    margin-top: 15px;
+    color: #fff;
+    line-height: 60px;
+}
+
+.smallbox-colorTexto{
+    font-size: 16px;
+    background-color: #82b800;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.smallBox-colorIcon{
+    float: right;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #77ab00;
+}
+
+.smallbox-sombra{
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.1);
+    position: relative;
+    top: 70px;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+}
