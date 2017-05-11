@@ -1,0 +1,27 @@
+{
+  "name": "small-notification",
+  "description": "Plugin Jquery small notification",
+  "main": "index.html",
+  "authors": [
+    "Carlos Moreno"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Bower",
+    "Jquery",
+    "plugin"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}

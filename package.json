@@ -1,0 +1,16 @@
+{
+  "name": "small-notification",
+  "version": "1.0.0",
+  "description": "Plugin Jquery small notification",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bower",
+    "Jquery",
+    "plugin"
+  ],
+  "author": "Carlos Moreno",
+  "license": "ISC"
+}
