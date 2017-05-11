@@ -7,7 +7,7 @@
 	<!-- Importacion del jQuery -->
 	<script src="public/jquery/dist/jquery.min.js"></script>
 
-	<!--<script src="js/lib/TweenMax.min.js"></script>-->
+	<script src="js/lib/TweenMax.min.js"></script>
 	
 	<!-- Importacion del Bootstrap -->
 	<link rel="stylesheet" href="public/bootstrap/dist/css/bootstrap.min.css">
@@ -21,32 +21,24 @@
 </head>
 <body>
 
-	<div class="smallBox-contenedor">
-		<div class="smallBox-foto">
-			<img src="img/foto.jpg">
-		</div>
-		<div class="smallBox-contenido" align="center">
-			<div class="smallBox-textoContenedor" align="left">
-				<span class="smallBox-titulo">Al aire</span>
-				<span class="smallBox-subTitulo">La voz de Costa Rica vivo</span>
-			</div>
-			<div class="smallBox-cajaColor">
-				<div class="smallBox-colorTexto">
-					<i class="fa fa-user-circle"></i> Karen Melissa 107.1fm
-				</div>
-				<div class="smallBox-colorIcon">
-					<i class="fa fa-facebook fa-2x"></i>
-				</div>
-			</div>
-			<div class="smallBox-sombra"></div>
-		</div>
-	</div>
-
-
 	<div class="container">	
 		<h1>Small: <small>Notification</small></h1>
 		<hr>
 	</div>
+
+<script>
+	$(document).ready(function(){
+		console.log('Pagina Cargada');
+		$.smallBox({
+			titulo : "Welcome Carlos",
+			subtitulo: "Conexion exitosa",
+			contenido: "I am the CEO",
+			timeout: 4000,
+			fa: 'fa-twitter',
+			img: 'img/foto2.jpg'
+		});
+	});
+</script>
 
 </body>
 </html>
